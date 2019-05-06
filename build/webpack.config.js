@@ -186,7 +186,7 @@ module.exports = {
       new webpack.optimize.ModuleConcatenationPlugin(),
     ] : [
       // Development only plugins
-      new webpack.HotModuleReplacementPlugin(),
+      // new webpack.HotModuleReplacementPlugin(),
       new webpack.NamedModulesPlugin(),
     ]),
     new HtmlWebpackPlugin({
