@@ -1,1 +1,1 @@
-web: npx webpack-serve --config ./build/webpack.config.js --static www
+web: npx webpack-serve --config ./build/webpack.config.js --static www --port $PORT
