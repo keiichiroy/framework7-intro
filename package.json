@@ -67,6 +67,7 @@
     "framework7": "^4.3.1",
     "framework7-icons": "^2.3.1",
     "template7": "^1.4.1",
+    "copy-webpack-plugin": "^5.0.3",
     "webpack": "^4.30.0",
     "webpack-cli": "^3.3.2",
     "webpack-serve": "^3.1.0"
@@ -79,7 +80,6 @@
     "@babel/runtime": "^7.4.4",
     "babel-loader": "^8.0.5",
     "chalk": "^2.4.2",
-    "copy-webpack-plugin": "^5.0.3",
     "cpy-cli": "^2.0.0",
     "cross-env": "^5.2.0",
     "css-loader": "^2.1.1",
