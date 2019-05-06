@@ -168,6 +168,7 @@ module.exports = {
 
     ...(env === 'production' ? [
       // Production only plugins
+/*
       new UglifyJsPlugin({
         uglifyOptions: {
           compress: {
@@ -177,6 +178,7 @@ module.exports = {
         sourceMap: true,
         parallel: true,
       }),
+*/
       new OptimizeCSSPlugin({
         cssProcessorOptions: {
           safe: true,
